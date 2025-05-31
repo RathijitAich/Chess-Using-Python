@@ -4,8 +4,6 @@ from bot import get_best_move
 
 board = chess.Board()
 
-
-
 while not board.is_game_over():
     print("\nCurrent board:")
     print(board)
